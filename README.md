@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My frontend mentor solution](https://www.frontendmentor.io/solutions/responsive-social-links-profile-7HVSoXnCvS)
-- Live Site URL: [My live site](https://obikaviola.github.io/social-links-profile/)
+- Solution URL: [My Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-social-links-profile-7HVSoXnCvS)
+- Live Site URL: [My Live Site](https://obikaviola.github.io/social-links-profile/)
 
 ## My process
 
