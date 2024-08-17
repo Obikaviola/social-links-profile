@@ -57,7 +57,7 @@ To see how you can add code snippets, see below:
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This course helped me in understanding the technicalities behind creating a responsive layout.
+- [Conquering Responsive Layout](https://courses.kevinpowell.co/view/courses/conquering-responsive-layouts) - This course helped me in understanding the technicalities behind creating a responsive layout.
 
 ## Author
 
