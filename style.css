@@ -15,7 +15,7 @@ html{
 body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
-    background-color: hsl(0, 0%, 8%);
+    background-color: #d9d2d2;
     color: hsl(0, 0%, 100%);
     min-height: 100vh;
     place-content: center;
@@ -24,6 +24,7 @@ body {
 }
 
 .container{
+    padding-top: 2rem;
     width: 90%;
     margin: 0 auto;
     max-width: 350px;
@@ -40,6 +41,9 @@ p, h1{
 img{
     display: block;
     max-width: 100%;
+}
+
+.profile__image > img {
     border-radius: 50%;
 }
 
@@ -50,7 +54,7 @@ img{
 }
 
 .profile__content {
-    background-color: hsl(0, 0%, 12%);
+    background-color: #3d0f59;
     padding: 3em;
     border-radius: 10px;
     margin-bottom: 2em;
@@ -74,26 +78,59 @@ img{
     width: 100%;
 }
 
+.profile__links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 2.5rem;
+}
+
+.profile__links a div:nth-child(2){
+    flex-grow: 1;
+}
+
+.icon-image{
+    position: relative;
+    width: 18px;
+    height: 18px;
+}
+
+.image-default{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.image-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
 .profile__link--item{
     margin-top: 1em;
     padding: 0.8em 0;
     width: 100%;
     border-radius: 10px;
-    background-color: hsl(0, 0%, 20%);
+    background-color: #eae1e1;
     font-weight: 600;
     text-decoration: none;
-    color: hsl(0, 0%, 100%);
+    color: #9c01fd;
 }
 
-.profile__link--item:hover,
-.profile__link--item:focus {
-    background-color: hsl(75, 94%, 57%);
-    color: hsl(0, 0%, 8%);
+.profile__link--item:hover, .profile__link--item:hover .image-hover {
+    background-color:#9c01fd;
+    color: #ffffff;
+    opacity: 1;
 }
 
 .attribution { 
     text-align: center;
-    font-size: 0.8rem; 
+    font-size: 1rem;
+    color: #000; 
+    padding-bottom: 1rem;
 }
 
 .attribution a { 
